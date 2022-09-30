@@ -1,5 +1,12 @@
 {
   "User": {
     "title": { "string": {} }
+  },
+  "Producto": {
+    "codigo": { "string": {} },
+    "nombre":{  "loremWords": { "minLength": 2, "maxLength": 5 }},
+    "valor": { "int": { "min": 1, "max": 100 } },
+    "iva": { "string": {} },
+    "ice": { "string": {} },
   }
 }
